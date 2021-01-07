@@ -1,0 +1,5 @@
+.grid__container__img {
+  display: flex;
+  /* width: 100%; */
+  flex-wrap: wrap;
+}

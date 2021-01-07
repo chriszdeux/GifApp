@@ -1,0 +1,19 @@
+.image-card {
+  display: flex;
+}
+.image-card img{
+  width: 200px;
+  height: 200px;
+  margin: 3px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.image-card img:hover {
+  /* width: 250px;
+  height: 250px; */
+  opacity: 1;
+  cursor: pointer;
+  box-shadow: 0 0 5px 3px gray;
+  /* position: absolute; */
+}
